@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./payment.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <title>Payment</title>
+</head>
+
+<body>
+  <div class="ecommerce">
+    <div class="header-top">
+      <ul class="group-item">
+        <div class="item">
+          <li>SHOP</li>
+          <i class="fa-solid fa-chevron-down icon-top-select"></i>
+        </div>
+        <div class="item">
+          <li>BLOG</li>
+          <i class="fa-solid fa-chevron-down icon-top-select"></i>
+        </div>
+        <div class="item">
+          <li>PAGES</li>
+          <i class="fa-solid fa-chevron-down icon-top-select"></i>
+        </div>
+      </ul>
+      <ul class="group-item">
+        <div class="item">
+          <i class="fa-solid fa-envelope icon-top"></i>
+          <li>info@ricky-shop.com</li>
+        </div>
+        <div class="item">
+          <i class="fa-solid fa-phone icon-top"></i>
+          <li>+123 488 9652</li>
+        </div>
+        <div class="item">
+          <i class="fa-solid fa-location-dot icon-top"></i>
+          <li>25 West 21th Street, Miami FL, USA</li>
+        </div>
+        <div class="item">
+          <li>English</li>
+          <i class="fa-solid fa-chevron-down icon-top"></i>
+        </div>
+      </ul>
+    </div>
+    <div class="navbar">
+      <div>
+        <img src="./logo.svg" class="image-color" alt="Logo" />
+      </div>
+      <ul class="navbar-middle">
+        <div class="navbar-item">
+          <i class="fa-solid fa-store navbar-item-dis"></i>
+          <li>SHOP</li>
+        </div>
+        <div class="navbar-item">
+          <i class="fa-solid fa-dog navbar-item-dis"></i>
+          <li>DOGS</li>
+        </div>
+        <div class="navbar-item">
+          <i class="fa-solid fa-cat navbar-item-dis"></i>
+          <li>CATS</li>
+        </div>
+        <div class="navbar-item">
+          <i class="fa-solid fa-fish navbar-item-dis"></i>
+          <li>FISH</li>
+        </div>
+        <div class="navbar-item">
+          <i class="fa-solid fa-egg navbar-item-dis"></i>
+          <li>SMALL PETS</li>
+        </div>
+        <div class="navbar-item">
+          <i class="fa-solid fa-otter navbar-item-dis"></i>
+          <li>REPTILES</li>
+        </div>
+        <div class="navbar-item">
+          <i class="fa-solid fa-kiwi-bird navbar-item-dis"></i>
+          <li>BIRDS</li>
+        </div>
+      </ul>
+      <div class="navbar-right">
+        <i class="fa-solid fa-magnifying-glass navbar-right-icon"></i>
+        <i class="fa-regular fa-user navbar-right-icon"></i>
+        <i class="fa-regular fa-heart navbar-right-icon"></i>
+        <i class="fa-solid fa-cart-shopping navbar-right-icon"></i>
+      </div>
+    </div>
+    <div class="navbar-content">
+      <div class="navbar-content-item-top">
+        <div class="navbar-content-item-top-item">
+          <p class="navbar-content-text">Home</p>
+          <i class="fa-solid fa-chevron-right navbar-content-icon"></i>
+        </div>
+        <p class="navbar-content-text">Checkout</p>
+      </div>
+      <div class="navbar-content-item-bottom">
+        <p class="navbar-content-bottom-text">Checkout</p>
+      </div>
+    </div>
+    <div class="checkout">
+      <div class="checkout-left">
+        <div class="form-checkout-left">
+          <h3 class="form-checkout-title">Billing details</h3>
+          <form autocomplete="off" class="form-checkout-form">
+            <div class="form-group">
+              <div class="form-checkout-field">
+                <label for="" class="form-checkout-label">
+                  First name
+                  <sup>*</sup>
+                </label>
+                <input type="text" class="form-checkout-input" />
+              </div>
+              <div class="form-checkout-field">
+                <label for="" class="form-checkout-label">
+                  Last name
+                  <sup>*</sup>
+                </label>
+                <input type="text" class="form-checkout-input" />
+              </div>
+            </div>
+
+            <div class="form-checkout-field">
+              <label for="" class="form-checkout-label">
+                Company name (optional)
+              </label>
+              <input type="text" class="form-checkout-input" />
+            </div>
+            <div class="form-checkout-field">
+              <label for="" class="form-checkout-label">
+                Street address
+                <sup>*</sup>
+              </label>
+              <input type="text" class="form-checkout-input" placeholder="House number and street name" />
+            </div>
+            <div class="form-checkout-field">
+              <input type="text" class="form-checkout-input" placeholder="Apartment, suite, unit, etc.(optional)" />
+            </div>
+            <div class="form-checkout-field">
+              <label for="" class="form-checkout-label">
+                ZIP Code
+                <sup>*</sup>
+              </label>
+              <input type="text" class="form-checkout-input" />
+            </div>
+            <div class="form-checkout-field">
+              <label for="" class="form-checkout-label">
+                Phone
+                <sup>*</sup>
+              </label>
+              <input type="text" class="form-checkout-input" />
+            </div>
+            <div class="form-checkout-field">
+              <label for="" class="form-checkout-label">
+                Email address
+                <sup>*</sup>
+              </label>
+              <input type="text" class="form-checkout-input" />
+            </div>
+          </form>
+        </div>
+        <div class="description-checkout">
+
+          <a href="#" class="js-cart-coupon">
+            <div class="c-cart__coupon-header">
+              Coupon code
+              <i class="ip-down_arrow c-cart__select-icon"></i>
+              <i class="ip-down_arrow c-cart__select-icon c-cart__select-icon--opened"></i>
+            </div>
+          </a>
+          <hr>
+          <div class="c-cart__sub-header" id="order_review_heading">Your order</div>
+
+
+          <div id="order_review" class="c-cart__review-order woocommerce-checkout-review-order">
+            <table class="c-cart__totals-table shop_table woocommerce-checkout-review-order-table">
+              <tbody>
+                <tr>
+                  <td colspan="2" class="c-cart__totals-product-space"></td>
+                </tr>
+                <tr class="c-cart__totals-product cart_item">
+
+                  <td class="c-cart__totals-product-name">
+                    Zesty Paws Itch Soother Dog Shampoo&nbsp; <strong
+                      class="c-cart__totals-product-quantity product-quantity">×&nbsp;5</strong> </td>
+                  <td class="c-cart__totals-price">
+                    <span class="woocommerce-Price-amount amount"><bdi><span
+                          class="woocommerce-Price-currencySymbol">$</span>225.00</bdi></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="c-cart__totals-product-space"></td>
+                </tr>
+                <tr class="c-cart__totals-product cart_item">
+
+                  <td class="c-cart__totals-product-name">
+                    Precious Cat Ultra Unscented Clumping Clay - 8 lbs&nbsp; <strong
+                      class="c-cart__totals-product-quantity product-quantity">×&nbsp;1</strong> </td>
+                  <td class="c-cart__totals-price">
+                    <span class="woocommerce-Price-amount amount"><bdi><span
+                          class="woocommerce-Price-currencySymbol">$</span>15.00</bdi></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="c-cart__totals-product-space"></td>
+                </tr>
+                <tr class="c-cart__totals-subtotal">
+                  <td class="c-cart__totals-subtotal-header">Subtotal</td>
+                  <td class="c-cart__totals-price"><span class="woocommerce-Price-amount amount"><bdi><span
+                          class="woocommerce-Price-currencySymbol">$</span>240.00</bdi></span></td>
+                </tr>
+              </tbody>
+              <tfoot>
+
+
+                <tr>
+                  <td colspan="2" class="c-cart__totals-space c-cart__totals-space--hr"></td>
+                </tr>
+
+
+
+                <tr class="woocommerce-shipping-totals shipping">
+                  <td class="c-cart__totals-td" data-title="Shipping" colspan="2">
+                    <div class="c-cart__sub-header">Shipping</div>
+                    <ul id="shipping_method" class="c-cart__shipping-methods woocommerce-shipping-methods">
+                      <li class="c-cart__shipping-methods-item">
+                        <input type="radio" name="shipping_method[0]" data-index="0" id="shipping_method_0_flat_rate1"
+                          value="flat_rate:1" class="c-cart__shipping-method-radio shipping_method"
+                          checked="checked"><label class="c-cart__shipping-methods-label"
+                          for="shipping_method_0_flat_rate1">Flat rate: <span
+                            class="woocommerce-Price-amount amount"><bdi><span
+                                class="woocommerce-Price-currencySymbol">$</span>30.00</bdi></span></label>
+
+                      </li>
+
+                      <li class="c-cart__shipping-methods-item">
+                        <input type="radio" name="shipping_method[0]" data-index="0"
+                          id="shipping_method_0_free_shipping3" value="free_shipping:3"
+                          class="c-cart__shipping-method-radio shipping_method"><label
+                          class="c-cart__shipping-methods-label" for="shipping_method_0_free_shipping3">Free
+                          shipping</label>
+                      </li>
+                    </ul>
+
+                  </td>
+
+                </tr>
+
+
+
+
+
+
+
+
+
+                <tr>
+                  <td colspan="2" class="c-cart__totals-space c-cart__totals-space--hr"></td>
+                </tr>
+
+                <tr class="order-total">
+                  <th class="c-cart__sub-sub-header">Total</th>
+                  <td class="c-cart__totals-price c-cart__totals-price--total" data-title="Total"><strong><span
+                        class="woocommerce-Price-amount amount"><bdi><span
+                            class="woocommerce-Price-currencySymbol">$</span>270.00</bdi></span></strong> </td>
+                </tr>
+
+                <tr>
+                  <td colspan="2" class="c-cart__totals-space c-cart__totals-space--hr"></td>
+                </tr>
+
+
+
+              </tfoot>
+            </table>
+
+            <div id="payment" class="woocommerce-checkout-payment">
+              <div class="c-cart__sub-header">Payment Method</div>
+              <ul class="c-cart__payment-methods wc_payment_methods payment_methods methods">
+                <li class="wc_payment_method payment_method_cod">
+                  <input id="payment_method_cod" type="radio" class="c-cart__payment-method-radio input-radio"
+                    name="payment_method" value="cod" checked="checked" data-order_button_text=""><i></i>
+
+                  <label class="c-cart__payment-methods-title" for="payment_method_cod">
+                    Cash on delivery </label>
+                  <div class="c-cart__payment-methods-box payment_box payment_method_cod">
+                    <p>Pay with cash upon delivery.</p>
+                  </div>
+                </li>
+                <li class="wc_payment_method payment_method_bacs">
+                  <input id="payment_method_bacs" type="radio" class="c-cart__payment-method-radio input-radio"
+                    name="payment_method" value="bacs" data-order_button_text=""><i></i>
+
+                  <label class="c-cart__payment-methods-title" for="payment_method_bacs">
+                    Direct bank transfer </label>
+
+
+                </li>
+              </ul>
+              <div class="c-cart__place-order form-row place-order">
+
+                <br>
+                <div class="woocommerce-privacy-policy-text">
+                  <p>Your personal data will be used to process your order, support your experience throughout this
+                    website, and for other purposes described in our <a
+                      href="" class="woocommerce-privacy-policy-link"
+                      target="_blank">privacy policy</a>.</p>
+                </div>
+                <span class="woocommerce-terms-and-conditions-checkbox-text">
+                  I have read and agree to the website
+                  <a href=""
+                    class="woocommerce-terms-and-conditions-link" target="_blank">
+                    terms and conditions</a>
+                </span>
+
+
+
+                <br>
+                <button type="submit" class="c-button c-button--big c-button--full c-cart__place-order-btn button alt"
+                  name="woocommerce_checkout_place_order" id="place_order" value="Place order"
+                  data-value="Place order">Place order</button>
+
+                <input type="hidden" id="woocommerce-process-checkout-nonce" name="woocommerce-process-checkout-nonce"
+                  value="9b06e732a9"><input type="hidden" name="_wp_http_referer"
+                  value="/ricky/demo/?wc-ajax=update_order_review">
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="navbar-bottom">
+      <div class="navbar-bottom-item">
+        <i class="fa-solid fa-truck-fast navbar-bottom-item-icon"></i>
+        <h2 class="navbar-bottom-item-content">Free Shipping</h2>
+      </div>
+      <div class="navbar-bottom-item">
+        <i class="fa-solid fa-question navbar-bottom-item-icon"></i>
+        <h2 class="navbar-bottom-item-content">24/7 Support</h2>
+      </div>
+      <div class="navbar-bottom-item">
+        <i class="fa-solid fa-coins navbar-bottom-item-icon"></i>
+        <h2 class="navbar-bottom-item-content">Money Back Guarantee</h2>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-first">
+        <img src="../logo.svg" alt="" class="footer-first-image" />
+        <p class="footer-first-title">
+          © 2022 Ricky Theme. All rights reserved.
+        </p>
+      </div>
+      <div class="footer-second">
+        <div class="footer-second-item">
+          <i class="fa-regular fa-heart footer-second-icon"></i>
+          <p class="footer-second-title">
+            Quis quisque viverra nulla risus integer aliquet in. Dis nascetur
+            vitae sed ultricies vel luctus massa. Sed orci ut magnis maecenas
+            pharetra.
+          </p>
+        </div>
+        <div class="footer-second-item">
+          <i class="fa-solid fa-truck footer-second-icon"></i>
+          <p class="footer-second-title">
+            Ut et duis ornare in eget elit. Vestibulum nisi nec ultricies
+            consectetur suspendisse. Vitae aliquam quis sed at et.
+          </p>
+        </div>
+        <div></div>
+      </div>
+      <div class="footer-third">
+        <div class="footer-third-item">
+          <i class="fa-solid fa-arrow-right-long footer-third-icon"></i>
+          <p>About Us</p>
+        </div>
+        <div class="footer-third-item">
+          <i class="fa-solid fa-arrow-right-long footer-third-icon"></i>
+          <p>Our Team</p>
+        </div>
+        <div class="footer-third-item">
+          <i class="fa-solid fa-arrow-right-long footer-third-icon"></i>
+          <p>Maintenance</p>
+        </div>
+        <div class="footer-third-item">
+          <p class="footer-third-follow">Follows Us:</p>
+          <div>
+            <i class="fa-brands fa-facebook-f footer-third-social"></i>
+            <i class="fa-brands fa-instagram footer-third-social"></i>
+            <i class="fa-brands fa-twitter footer-third-social"></i>
+            <i class="fa-brands fa-youtube footer-third-social"></i>
+          </div>
+        </div>
+      </div>
+      <div class="footer-four">
+        <ul class="footer-four-group-item">
+          <div class="footer-four-item">
+            <i class="fa-solid fa-envelope icon-bottom"></i>
+            <li>info@ricky-shop.com</li>
+          </div>
+          <div class="footer-four-item">
+            <i class="fa-solid fa-phone icon-bottom"></i>
+            <li>+123 488 9652</li>
+          </div>
+          <div class="footer-four-item">
+            <i class="fa-solid fa-location-dot icon-bottom"></i>
+            <li>25 West 21th Street, Miami FL, USA</li>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
